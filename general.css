@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContainerDiv {
+    display: flex;
+    padding: 25px 0px 25px 0px;
+}
+
+.headerContainerDiv > div {
+    width: 33%;
+}
+
+.navigationMenu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigationMenu > li > a {
+    font-size: 16px;
+    color: #363636;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navigationMenu > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 226px;
+    height: 48px;
+}
+
+.contactButton {
+    height: 59px;
+    width: 174px;
+    border: 2px solid #363636;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contactButton:hover {
+    cursor: pointer;
+}
+
+.footerLogo {
+    width: 269px;
+    height: 57px;
+}
+
+footer {
+    background-color: #1e1e1e;
+}
+
+.footerMainRowDiv {
+    display: flex;
+}
+
+.footerContactDiv {
+    width: 50%;
+    padding: 40px 0px;
+}
+
+.talkButton {   
+    width: 174px;
+    height: 59px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #363636;
+    font-weight: 700;
+    border: 2px solid #363636;
+    margin-left: 25px;
+    transition: 0.2s;
+}
+
+.white {
+    color: white;
+}
+
+.emailInput {
+    width: 319px;
+    height: 52px;
+    border: 1px solid #dce1e5;
+    background-color: #363636;
+    
+}
+
+.emailInput::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-indent: 20px;
+}
+
+.footerList {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.footerList > ul {
+    list-style-type: none;
+    margin-left: 55px;
+}
+
+.footerList > ul > li {
+    padding: 8px 0px;
+}
+
+.h2 {
+    font-size: 24px;
+}
+
+.container > div {
+    padding: 15px 0px;
+}
+
+.footerContactDiv > div > p {
+    padding-top: 40px;
+}
+
+.bottomFooterRow {
+    display: flex;
+}
+
+.bottomFooterRow > div {
+    width: 50%;
+}
+
+.copyrightDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.footerTopRow {
+    margin-top: 20px;
+}
+
+.talkButton:hover {
+    background-color: #363636;
+    color: white;
+}
