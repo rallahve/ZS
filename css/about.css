@@ -1,0 +1,50 @@
+.bgImgDiv {
+    height: 473.5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(55, 53, 52, 0.5);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.logoCard {
+    width: 229px;
+    height: 108px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.bgImgDivHover {
+    height: 473.5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.bgImgDivHover:hover {
+    background-color: rgba(55, 53, 52, 0.5);
+    background-blend-mode: multiply;
+}
+
+.portfolioCard {
+    width: 318px;
+    height: 209px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 10px;
+    transition: 0.3s;
+}
+
+.portfolioCard:hover {
+    background-color: rgba(55, 53, 52, 0.5);
+    background-blend-mode: multiply;
+}
+

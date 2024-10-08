@@ -1,0 +1,162 @@
+.talkButtonInverse {
+    width: 174px;
+    height: 59px;
+    background-color: #363636;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    border: 2px solid #363636;
+    margin-left: 25px;
+    transition: 0.1s;
+}
+
+.talkButtonInverse:hover {
+    color: #363636;
+    background-color: #fff;
+}
+
+.emailInputInverse {
+    width: 319px;
+    height: 52px;
+    border: 1px solid #dce1e5;
+    background-color: white;
+    
+}
+
+.emailInputInverse::placeholder {
+    color: #dce1e5;
+    font-size: 16px;
+    font-weight: 400;
+    text-indent: 20px;
+}
+
+.digitalMarketDiv {
+    background-position: center;
+    background-color: rgba(55, 53, 52, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 810px;
+}
+
+.whatWeDo {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.whatWeDo > li {
+    font-size: 27px;
+    color: #363636;
+    margin: 15px 0px;
+}
+
+.blogsRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+}
+
+.cardImg {
+    height: 254px;
+    overflow: hidden;
+}
+
+.cardImg > img {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+
+.cardImg > img:hover {
+    transform: scale(1.3);
+}
+
+.cardTextDiv {
+    border-left: 5px solid #33c1ff;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.cardText {
+    font: 24px;
+    font-weight: bold;
+    color: #363636;
+}
+
+.contactUsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #F4F4F6;
+    ;
+}
+
+.contactContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.contactContainer > h1, p, label {
+    color: #363636;
+}
+
+.contactBgDiv {
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactBgDiv > img {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+
+.contactBgDiv > img:hover {
+    transform: scale(1.2);
+}
+
+.contactBgDiv:hover {
+    transition: all 0.3s ease-in-out;
+    background-size: 130%;
+}
+
+.contactContainer  input {
+    height: 49px;
+    border: 1px solid #dce1e5;
+}
+
+.contactContainer  label {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.clientCard {
+    box-shadow: 1px 1px#ebebeb;
+    border-radius: 4px;
+    padding: 7px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    height: 236px;
+    border: 1px solid #ebebeb;
+}
+
+.customerImgDiv {
+    width: 51px;
+    height: 51px;
+}
+
+.customerImgDiv > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
